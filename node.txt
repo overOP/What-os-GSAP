@@ -1,0 +1,12 @@
+GSAP
+
+
+- What is Anomation
+- GSAP introduction
+- GSAP animation basics
+- GSAP.to() / GSAP.from()
+- Some other fraturse
+- GSAP Timeline and hoe to control it 
+- GSAP ScrollTrigger
+- Pinning in ScrollTrigger
+- some other pluggins
