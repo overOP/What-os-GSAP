@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    overflow-x: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://news.liverpool.ac.uk/wp-content/uploads/2020/09/clouds_web.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+    color: lawngreen;
+}
+#nav h2 {
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+#nav i{
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: 600;
+}
+#full {
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(240, 248, 255, 0.277);
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(10px);
+    padding: 150px 60px;
+}
+#full h4{
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+}
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: wheat;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
