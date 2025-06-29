@@ -1,0 +1,47 @@
+@font-face{
+    font-family:china;
+    src:url(china.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #111;
+}
+#page1, #page2, #page3{
+    height: 100%;
+    width: 100%;
+    padding: 5vw 0;
+}
+#move{
+    background-color: #D8FF04;
+    display: flex;
+    padding: 3vw 0;
+    gap:3vw;
+    overflow: hidden;
+}
+.marque h1{
+    font-size: 4vw;
+    font-family: china;
+    color: black;
+}
+.marque{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding:0 1,5vw;
+    transform: translateX(-100%);
+}
+.marque img{
+    height: 4vw;
+}
