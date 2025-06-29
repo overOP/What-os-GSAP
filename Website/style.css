@@ -1,0 +1,213 @@
+@font-face{
+    font-family: china;
+    src:url(./3856NeueMachina.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+#page2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+nav h1{
+    font-size: 50px;
+}
+nav h1 i{
+    rotate: 45deg;
+    display: inline-block;
+    font-size: 55px ;
+}
+nav h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+nav button{
+    font-size: 22px;
+    padding: 22px 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    border:2px solid #000;
+    background-color: transparent;
+}
+
+.center{
+    padding: 70px 100px;
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.center-part1{
+    height: 100%;
+    width: 44%;
+}
+
+
+.center-part1 h1{
+    font-size: 70px;
+    font-family: china;
+    line-height: 1.2;
+}
+.center-part1 p{
+    font-size: 30px;
+    width: 95%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.center-part1 button{
+    background-color: #000;
+    color: #fff;
+    padding: 22px 40px;
+    border-radius: 10px;
+    font-weight: 600;
+    border:2px solid #000;
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.center-part2{
+    height: 100%;
+    width: 56%;
+    position: relative;
+}
+
+.center-part2 img{
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.section1-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 102px;
+}
+.section1-bottom img{
+    height: 60px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
+
+.section2 .service{
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 120px;
+    gap: 50px;
+}
+
+.service h3{
+    background-color: #9AE975;
+    font-weight: 500;
+    padding: 5px 10px 3px 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: china;
+}
+
+.service p{
+    width: 40%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container{
+    height: 86%;
+    width: 100%;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.elem{
+    flex-shrink: 0;
+    height: 450px;
+    width: 48%;
+    border: 3px solid black;
+    border-radius: 50px;
+    box-shadow: 0px 15px 19px black;
+    padding: 60px;
+    display: flex;
+}
+
+.elem-part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.elem-paer2{
+    height: 100%;
+    width: 50%;
+}
+
+.elem-paer2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.elem-part1 h2{
+    font-size: 30px;
+    font-family: china;
+    width: fit-content;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    background-color: #9ae975;
+    border-radius: 5px;
+}
+.elem-part1 h4{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.elem-part1 h4 i {
+    color: #9ae975;
+    background-color: black;
+    border-radius: 50%;
+    font-weight: 900;
+}
+.black {
+    background-color: black;
+    color: #fff;
+}
